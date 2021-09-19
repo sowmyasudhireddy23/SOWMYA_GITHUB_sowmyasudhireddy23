@@ -1,0 +1,43 @@
+body{
+    background-image: url('images/background.jpg');
+    font-family: 'Times New Roman', Times, serif;
+}
+.headingClass{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1cm;
+}
+.name_pic{
+    text-align: center;
+    display: block;
+}
+h3{
+    text-decoration: underline;
+}
+span{
+    font-weight: bold;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+table{
+    border:none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 40%;
+    border: 1px solid rgb(14, 2, 2);
+}
+  
+th, td{
+    text-align: left;
+    padding: 16px;
+}
+  
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+tr:nth-child(odd) {
+    background-color:lightcoral;
+    color: white;
+}
